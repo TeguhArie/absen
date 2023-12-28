@@ -114,6 +114,10 @@ if ($_SERVER['REQUEST_METHOD'] === "POST" && $search_type === "nama_kelas") {
             width: 30px;
             height: 30px;
         }
+
+        .cari:hover {
+            transition: 1s ease-in-out;
+        }
     </style>
 </head>
 
